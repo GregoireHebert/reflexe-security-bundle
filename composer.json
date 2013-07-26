@@ -1,0 +1,48 @@
+{
+    "name": "Reflexe/SecurityBundle",
+
+    "type": "symfony-bundle",
+
+    "description": "Provide security from namespace to actions in controllers by specifying required roles in database",
+
+    "keywords": ["secure","security","roles","controller","namespace","bundle","action","Symfony2"],
+
+    "homepage": "http://www.reflexece.com",
+
+    "authors": [
+        {
+            "name": "Grégoire Hébert",
+            "email": "gregoirehebert@reflexe.com",
+            "role": "Developer"
+        }
+    ],
+
+    "support": {
+        "email": "sav@reflexece.com",
+        "issues": "http://project.reflexece.com/"
+    },
+
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": ">=2.1",
+        "symfony/security-bundle": ">=2.1",
+        "doctrine/doctrine-bundle": "1.2.*",
+        "doctrine/orm": ">=2.2,<2.5-dev",
+        "doctrine/doctrine-fixtures-bundle": "2.1.*"
+    },
+
+    "minimum-stability": "dev",
+
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.reflexece.com/"
+        }
+    ],
+
+    "autoload": {
+        "psr-0": {
+            "Reflexe": "src/"
+        }
+    }
+}

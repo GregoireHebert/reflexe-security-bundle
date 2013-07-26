@@ -1,0 +1,14 @@
+services:
+    security.repository.external_role:
+        class: Reflexe\Bundle\SecurityBundle\Entity\ExternalRolesManager
+        factory_service: doctrine.orm.entity_manager
+        factory_method: getRepository
+        arguments: ['ReflexeSecurityBundle:ExternalRole']
+
+    security.external_roles_definition_voter:
+        class: Reflexe\Bundle\SecurityBundle\Security\Authorization\Voter\ReflexeSecurityVoter
+        arguments: [@service_container, @security.repository.external_role]
+        public: false
+        tags:
+            - { name: security.voter }
+
