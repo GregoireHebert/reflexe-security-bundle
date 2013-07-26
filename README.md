@@ -1,4 +1,4 @@
-LswSecureControllerBundle
+ReflexeSecurityBundle
 ==================
 
 Provide Security From Namespace to actions in controllers by specifying required roles.
