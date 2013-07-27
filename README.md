@@ -18,7 +18,7 @@ Installation is broken down in the following steps:
 1. Download ReflexeSecurityBundle using composer
 2. Enable the Bundle
 
-### Step 1: Download LswSecureControllerBundle using composer
+### Step 1: Download ReflexeSecurityBundle using composer
 
 Add ReflexeSecurityBundle in your composer.json:
 
