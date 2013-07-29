@@ -10,5 +10,11 @@ use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
  */
 class ExternalRolesManagerTest
 {
-
+    /**
+     * Functional test for ExternalRoleManager
+     */
+    public function testFindAllByRoute()
+    {
+        $this->markTestIncomplete('WebTestCases are not implemented yet.');
+    }
 }
