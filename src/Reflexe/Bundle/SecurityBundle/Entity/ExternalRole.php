@@ -159,6 +159,15 @@ class ExternalRole implements RoleInterface
     }
 
     /**
+     * Sets the Id
+     * @param integer $id
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+    }
+
+    /**
      * Sets the Namespace
      * @param $namespace
      */
